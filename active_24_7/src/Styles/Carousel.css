@@ -1,0 +1,31 @@
+.full-width-carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.full-width-slide {
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-slide img {
+  max-width: 20%;
+  max-height: 20%;
+  object-fit: cover;
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+}
+
+.slick-dots li button:before {
+  color: gray; /* Customize dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: black; /* Active dot color */
+}
