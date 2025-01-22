@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+.content-container {
+  display: flex;
+  justify-content: space-between;  /* Space out the content */
+  align-items: center;  /* Vertically align the items */
+  gap: 0px;  /* Optional gap between the two sections */
+  padding-left: 20px;
+  width: 90vw;
+}
+
+.content-container p {
+  flex: 1;  
+  text-align: left;
+  margin: 0;
+}
+
+.right-content {
+  text-align: center;
+  flex: 1;  /* Allow the right section to take up the remaining space */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width:80%;
+}
+
+button:hover {
+  background-color: #f10f0f;
+}

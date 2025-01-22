@@ -5,10 +5,7 @@ import MembershipPage from "./Pages/membershipPage";
 import ContactPage from "./Pages/contactPage";
 import FaciltiesPage from "./Pages/facilitiesPage";
 import Logo from "./assets/logo.png";
-
-
-
-import Carousel from "./Pages/carousel.jsx";
+import "./App.css"
 
 function App() {
   return (
@@ -16,16 +13,17 @@ function App() {
       <Router>
         {/*Banner with logo and navigation*/}
         <div>
-          <img src={Logo}/>
-          <nav>
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/facilities">Facilties</Link></li>
-              <li><Link to="/membership">Membership</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          </nav>
-  
+          <div className="banner">
+            <img src={Logo}/>
+            <nav>
+              <ul>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/facilities">Facilties</Link></li>
+                <li><Link to="/membership">Membership</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+              </ul>
+            </nav>
+          </div>
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/facilities" element={<FaciltiesPage />} />
@@ -34,7 +32,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <h6>Copyright notice</h6>
+      <h6 className="copy-right">Copyright notice</h6>
     </div>
   );
 }

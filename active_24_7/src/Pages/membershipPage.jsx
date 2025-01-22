@@ -1,8 +1,9 @@
 import React from "react";
+import "../index.css"
 
 function MembershipPage() {
   return (
-    <div> 
+    <div classname="page"> 
       <h1>Membership at Active 24/7</h1>
       <h2>Join for just $40 a month</h2>
       <ul>
