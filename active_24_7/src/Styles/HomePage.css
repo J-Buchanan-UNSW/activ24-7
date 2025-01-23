@@ -16,6 +16,12 @@ body {
   margin: 0;
 }
 
+.pano-image {
+  width: 100vw;
+  display: block;
+  margin: 0 auto;
+}
+
 .right-content {
   text-align: center;
   flex: 1;  /* Allow the right section to take up the remaining space */

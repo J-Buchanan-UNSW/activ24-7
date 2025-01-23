@@ -1,3 +1,15 @@
+/* Global reset for consistent layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure all elements use border-box sizing */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -30,7 +42,7 @@ body {
   min-height: 100vh;
   background-color: #ffffff;
   color:#1a1a1a;
-;}
+}
 
 h1 {
   font-size: 3.2em;
