@@ -1,6 +1,6 @@
 import React from "react";
 import bannerImage from "../assets/contact.jpg";
-import placeHolder from "../assets/placeHolder.png"
+import placeHolder from "../assets/placeholder.png"
 import "../App.css";
 import "../index.css";
 import "../Styles/HomePage.css"
