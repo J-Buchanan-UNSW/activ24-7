@@ -14,12 +14,7 @@ body {
   flex: 1;  
   text-align: left;
   margin: 0;
-}
-
-.pano-image {
-  width: 100vw;
-  display: block;
-  margin: 0 auto;
+  font-size: 1.5vw;
 }
 
 .right-content {
@@ -36,8 +31,51 @@ button {
   border-radius: 5px;
   cursor: pointer;
   width:80%;
+  box-shadow: 2px 2px #5f5f5f;
 }
 
 button:hover {
   background-color: #f10f0f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 2.5em;
+  color:#f10f0f;
+  text-shadow: 1px 1px #616060;
+}
+
+.thumbnail-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1);
+  gap: 20px;
+  flex-grow: 5;
+  margin-right: 50px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 16%; /* set image width */
+  margin: 5px;
+  box-shadow: 2px 2px #bcbcbc;
+  cursor: pointer;
+}
+
+.image-container img:hover {
+  width: 16%; /* set image width */
+  margin: 5px;
+  box-shadow: 3px 3px #1a1a1a;
+  cursor: pointer;
 }

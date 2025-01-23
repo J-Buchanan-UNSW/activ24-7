@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.options {
+  width: 20%;
+}
+
+.options ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.options li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.options li:hover {
+  color: #ff0000;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex-grow: 5;
+  margin-right: 50px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+}
+
+.message {
+  margin-top: 20px; 
+  font-size: 1em; 
+  text-align: center; 
+}

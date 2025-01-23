@@ -1,6 +1,7 @@
 .banner{
-  position: relative;
+  position: fixed;
   width: 100vw;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent black background */
   display: flex;
   flex-direction: column;
@@ -9,14 +10,16 @@
   color: white;
   text-align: center;
   padding: 20px;
+  object-fit: cover;
 }
 
 .banner h1,
 .banner h2,
 .banner p,
-.banner ul {
-  line-height: 1.; /* Increase line spacing */
-  margin-bottom: 20px; /* Add more spacing between elements */
+.banner li {
+  line-height: 1; 
+  margin-top: 20px;
+  font-size: 1.6em;
 }
 
 nav ul {
@@ -40,7 +43,14 @@ nav ul li a:hover {
   color: #f10f0f;  /* Hover color (yellow) */
 }
 
-.copy-right {
+.copyRight {
   text-align: left;
   padding-left: 1vw;
+  padding-top: 1vw;
 }
+
+h6 {
+  font-size: 0.8em;
+}
+
+

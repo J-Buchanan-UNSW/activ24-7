@@ -81,3 +81,11 @@ button:focus-visible {
   }
 }
 
+.pano-image {
+  width: 100vw;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  overflow: hidden;
+}
+

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
-import HomePage from "./Pages/homePage";
+import HomePage from "./assets/homePage";
 import MembershipPage from "./Pages/membershipPage";
 import ContactPage from "./Pages/contactPage";
 import FaciltiesPage from "./Pages/facilitiesPage";
@@ -32,7 +32,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <h6 className="copy-right">Copyright notice</h6>
+      <h6 className="copyRight">&copy; Active 24/7 2024 - All rights Reserved</h6>
     </div>
   );
 }

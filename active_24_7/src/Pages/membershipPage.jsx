@@ -1,9 +1,12 @@
 import React from "react";
 import "../index.css"
+import "../App.css"
+import bannerImage from "../assets/Front.jpeg"
 
 function MembershipPage() {
   return (
-    <div classname="page"> 
+    <div> 
+      <img src={bannerImage} alt="Panorama of Gym" className="pano-image"/>
       <h1>Membership at Active 24/7</h1>
       <h2>Join for just $40 a month</h2>
       <ul>
@@ -17,15 +20,25 @@ function MembershipPage() {
         <li>Reccurring Direct Deposit</li>
         <li>Cash</li>
       </ul>
-      <button>
-        <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
-          style={{ width: '20px', height: '20px', marginRight: '10px'}} /*temp until css implemented*/
-        />
-        Download our membership form
-      </button>
+      <PDFDownload />
     </div>
   );
+}
+
+const PDFDownload = () => {
+  return (
+    <div>
+      <a href="../assets/MemberForm.pdf" download="Active_24_7_Membership_Form.pdf">
+        <button>
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
+            style={{ width: '20px', height: '20px', marginRight: '10px'}} /*temp until css implemented*/
+          />
+          Download our membership form
+        </button>
+      </a>
+    </div>
+  )
 }
 
 export default MembershipPage;
