@@ -18,7 +18,7 @@ function App() {
             <nav>
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/facilities">Facilties</Link></li>
+                <li><Link to="/facilities">Facilities</Link></li>
                 <li><Link to="/membership">Membership</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
               </ul>
