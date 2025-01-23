@@ -38,10 +38,15 @@ function GymEquipment() {
       <div className='container'>
         <div className='options'>
           <ul>
+            <hr />
             <li onClick={() => setSelectedOption('cardio')}>Cardio Eqipment</li>
+            <hr />
             <li onClick={() => setSelectedOption('freeWeights')}>Free Weights</li>
+            <hr />
             <li onClick={() => setSelectedOption('weightMach')}>Weight Machines</li>
+            <hr />
             <li onClick={() => setSelectedOption('other')}>Other</li>
+            <hr />
           </ul>
         </div>
         <div style={{ flex: 1 }}>
