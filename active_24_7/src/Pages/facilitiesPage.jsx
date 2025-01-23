@@ -10,7 +10,7 @@ function FacilitiesPage() {
     <div>
       <img src={bannerImage} alt="Panorama of Gym" className="pano-image"/>
       <h1>Facilties and Amenities</h1>
-      <hr></hr>
+      <hr />
       <GymEquipment/>
       <h2>Enjoy the amenties on offer</h2>
       <p>Add in aircon, etc</p>
