@@ -81,7 +81,7 @@ h2 {
 }
 
 .pano-image {
-  width: 100vw;
+  width: 100%;
   display: block;
   margin: 0 auto;
   object-fit: contain;

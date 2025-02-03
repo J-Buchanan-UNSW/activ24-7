@@ -10,7 +10,8 @@ function GymEquipment() {
       "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/bike.jpg", 
       "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/cross-trainer.jpg",
       "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/rower.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/treadmill.jpg"],
+      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/treadmill.jpg",
+      "../assets/cardio5.jpeg"],
     freeWeights: [
       "https://www.active247.net.au/content/images/thumbnails/free-weights/bench-press.jpg", 
       "https://www.active247.net.au/content/images/thumbnails/free-weights/dumbells.jpg",
