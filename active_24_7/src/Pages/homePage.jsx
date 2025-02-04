@@ -1,14 +1,8 @@
 import React from "react";
-import Carousel from "../Pages/carousel";
 import bannerImage from "../assets/Mirror.jpeg"
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../Styles/HomePage.css";
-import cardio1 from "../assets/cardio1.jpeg";
-import cardio2 from "../assets/cardio2.jpeg";
-import cardio3 from "../assets/cardio3.jpeg";
-import cardio4 from "../assets/cardio4.jpeg";
-import cardio5 from "../assets/cardio5.jpeg";
 
 function HomePage() {
   return (
