@@ -87,3 +87,10 @@ h2 {
   object-fit: contain;
   overflow: hidden;
 }
+
+
+@media (max-width: 768px) {
+  .pano-image {
+    display:none;
+  }
+}
