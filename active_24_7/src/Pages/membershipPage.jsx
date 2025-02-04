@@ -28,7 +28,7 @@ function MembershipPage() {
 const PDFDownload = () => {
   return (
     <div>
-      <a href="../assets/MemberForm.pdf" download="Active_24_7_Membership_Form.pdf">
+      <a href="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/MemberForm.pdf" download="Active_24_7_Membership_Form.pdf">
         <button>
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
