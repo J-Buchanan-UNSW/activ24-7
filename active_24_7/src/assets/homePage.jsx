@@ -36,11 +36,11 @@ function HomePage() {
       </div>
       <Link to="/facilities">
         <div className="image-container">
-          <img src={cardio1} alt="what"/>
-          <img src={cardio2} />
-          <img src={cardio3} />
-          <img src={cardio4} />
-          <img src={cardio5} />
+          <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio1.jpeg" alt="treadmill"/>
+          <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio2.jpeg" alt ="cycle"/>
+          <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio3.jpeg" alt="cycle 2"/>
+          <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio4.jpeg" alt="eliptical"/>
+          <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio5.jpeg" alt="rowing"/>
         </div>
       </Link>
     </div>

@@ -7,30 +7,35 @@ function GymEquipment() {
 
   const content = {
     cardio: [
-      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/bike.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/cross-trainer.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/rower.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/cardio-equipment/treadmill.jpg",
-      "../assets/cardio5.jpeg"],
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio1.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio2.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio3.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio4.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio5.jpeg"],
     freeWeights: [
-      "https://www.active247.net.au/content/images/thumbnails/free-weights/bench-press.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/free-weights/dumbells.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/free-weights/barbells.jpg"],
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/barbell.jpg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/dumbbell_colour.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/weights_tower.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/assisted_curl.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/benchpress.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Weight_mirror.jpeg"],
     weightMach: [
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/chest-press.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/functional-trainer.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/lat-pulldown.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/leg-curl.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/leg-press.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/pec-fly.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/smith-machine.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/weight-machines/shoulder-press.jpg"],
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/chest_press.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/functional_trainer.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/lat_pulldown.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/leg_extension.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/leg_press.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/pec_fly.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/smith_machine.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/pulldown.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/shoulder_press.jpeg"],
     other: [
-      "https://www.active247.net.au/content/images/thumbnails/other-equipment/back-extension.jpg", 
-      "https://www.active247.net.au/content/images/thumbnails/other-equipment/bosu.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/other-equipment/medicine-balls.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/other-equipment/kettlebells.jpg",
-      "https://www.active247.net.au/content/images/thumbnails/other-equipment/fitballs.jpg"]
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/dumbbell.jpeg", 
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/balls.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/back_ext.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/steps.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/med_ball.jpeg",
+      "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/punching_bag.jpeg"]
   };
 
   return (

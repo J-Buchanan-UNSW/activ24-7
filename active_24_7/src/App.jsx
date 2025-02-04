@@ -32,6 +32,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <br />
       <h6 className="copyRight">&copy; Active 24/7 2025 - All rights Reserved</h6>
     </div>
   );
