@@ -74,8 +74,16 @@ h2 {
 }
 
 .image-container img:hover {
-  width: 16%; /* set image width */
+  width: 16%; 
   margin: 5px;
   box-shadow: 3px 3px #1a1a1a;
   cursor: pointer;
+}
+
+.pano-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+  overflow: hidden;
 }

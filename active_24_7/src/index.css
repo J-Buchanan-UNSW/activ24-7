@@ -68,24 +68,5 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
 
-.pano-image {
-  width: 100vw;
-  display: block;
-  margin: 0 auto;
-  object-fit: contain;
-  overflow: hidden;
-}
 

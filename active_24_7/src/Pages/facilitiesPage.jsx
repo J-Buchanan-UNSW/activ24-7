@@ -13,7 +13,13 @@ function FacilitiesPage() {
       <hr />
       <GymEquipment/>
       <h2>Enjoy the amenties on offer</h2>
-      <p>Add in aircon, etc</p>
+      <ul>
+        <li>Mutiple reverse cycle air conditioners. Keeping the gym at ideal temperatures all year around</li>
+        <hr className="line" />
+        <li>State of the art sound system, to enjoy music and workouts with friends</li>
+        <hr className="line" />
+        <li>Access to bathroom/changing facilties</li>
+      </ul>
     </div>
   );
 }
