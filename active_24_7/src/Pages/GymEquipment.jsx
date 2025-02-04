@@ -38,6 +38,7 @@ function GymEquipment() {
       "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/punching_bag.jpeg"]
   };
 
+
   return (
     <div>
       <h2>Explore our range of exercise equipment</h2>
