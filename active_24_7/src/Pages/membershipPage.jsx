@@ -8,17 +8,17 @@ function MembershipPage() {
       <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Front.jpeg" alt="Panorama of Gym" className="pano-image"/>
       <h1>Membership at Active 24/7</h1>
       <h2>Join for just $40 a month</h2>
-      <ul>
-        <li>No lock in contract! cancel any time</li>
-        <li>Access 24 hours a day, 7 days a week</li>
-        <li>Enjoy our new and udpated range of top end cardio equipment</li>
-      </ul>
+      <b>No lock in contract! cancel any time</b>
+      <br />
+      <b>Access 24 hours a day, 7 days a week</b>
+      <br />
+      <b>Enjoy our new and udpated range of top end cardio equipment</b>
       <h2>Payment Options</h2>
-      <ul>
-        <li>Credit Card</li>
-        <li>Reccurring Direct Deposit</li>
-        <li>Cash</li>
-      </ul>
+      <b>Credit Card</b>
+      <br />
+      <b>Reccurring Direct Deposit</b>
+      <br />
+      <b>Cash</b>
       <PDFDownload />
     </div>
   );
