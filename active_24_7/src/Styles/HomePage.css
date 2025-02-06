@@ -88,6 +88,10 @@ h2 {
   overflow: hidden;
 }
 
+.download {
+  margin-top: 20px;
+}
+
 
 @media (max-width: 768px) {
   .pano-image {

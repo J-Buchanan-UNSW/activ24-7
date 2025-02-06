@@ -1,6 +1,7 @@
 import React from "react";
 import "../index.css"
 import "../App.css"
+import "../Styles/HomePage.css"
 
 function MembershipPage() {
   return (
@@ -12,13 +13,14 @@ function MembershipPage() {
       <br />
       <b>Access 24 hours a day, 7 days a week</b>
       <br />
-      <b>Enjoy our new and udpated range of top end cardio equipment</b>
+      <b>Enjoy our new and updated range of top end cardio equipment</b>
       <h2>Payment Options</h2>
       <b>Credit Card</b>
       <br />
       <b>Reccurring Direct Deposit</b>
       <br />
       <b>Cash</b>
+      <br />
       <PDFDownload />
     </div>
   );
@@ -42,7 +44,7 @@ const DownloadLink = () => {
 
 const PDFDownload = () => {
   return (
-    <div>
+    <div classname="download">
         <button onClick={DownloadLink}>
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
