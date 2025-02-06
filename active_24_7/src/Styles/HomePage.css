@@ -27,6 +27,10 @@ body {
     flex-direction: column; 
     align-items: flex-start;
   }
+
+  .content-container p {
+    font-size: 2em;
+  }
 }
 
 button {
