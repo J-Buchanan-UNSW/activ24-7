@@ -1,10 +1,11 @@
-import React from "react";
+import { React, useEffect, useRef } from "react";
 import bannerImage from "../assets/contact.jpg";
-import placeHolder from "../assets/placeholder.png"
 import "../App.css";
 import "../index.css";
 import "../Styles/HomePage.css"
 import "../Styles/Contact.css"
+
+
 
 function ContactPage() {
   return (
@@ -41,11 +42,53 @@ function ContactPage() {
           </p>
         </div>
       </div>
-      <div className="image-container">
-        <img src={placeHolder} />
+      <div className="map">
+        <MapAPI />
       </div>
     </div>
   )
 }
+
+function MapAPI() {
+  const mapRef = useRef(null);
+
+  useEffect(() => {
+    const loadMap = () => {
+      const location = { lat: -31.563046097412176, lng: 147.1956108209046 };
+
+      const map = new window.google.maps.Map(mapRef.current, {
+        zoom: 18,
+        center: location,
+      });
+
+      new window.google.maps.Marker({
+        position: location,
+        map: map,
+      });
+    };
+
+    if (!window.google) {
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${import.meta.env.GOOGLE_MAPS_API_KEY}&callback=initMap`;
+      script.async = true;
+      script.defer = true;
+      window.initMap = loadMap;
+      document.head.appendChild(script);
+    } else {
+      loadMap();
+    }
+  }, []);
+
+  return (
+    <div>
+      <h2>Find Us Here</h2>
+      <div
+        ref={mapRef}
+        style={{ height: "400px", width: "100%", borderRadius: "12px" }}
+      />
+    </div>
+  );
+}
+
 
 export default ContactPage;
