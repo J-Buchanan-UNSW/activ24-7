@@ -5,9 +5,9 @@ body {
   display: flex;
   justify-content: space-between;  /* Space out the content */
   align-items: center;  /* Vertically align the items */
-  gap: 0px;  /* Optional gap between the two sections */
-  padding-left: 20px;
-  width: 90vw;
+  padding-left: 4%;
+  width: 100vw;
+  /*flex-wrap: wrap;*/
 }
 
 .content-container p {
@@ -19,7 +19,14 @@ body {
 
 .right-content {
   text-align: center;
-  flex: 1;  /* Allow the right section to take up the remaining space */
+  flex: 1;  
+}
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; 
+    align-items: flex-start;
+  }
 }
 
 button {
