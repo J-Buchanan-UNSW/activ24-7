@@ -30,7 +30,7 @@ body {
 
   .content-container p {
     font-size: 2em;
-    justify-content: center;
+    align-items: center;
   }
 }
 
