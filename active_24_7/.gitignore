@@ -31,4 +31,4 @@ amplify_outputs*
 amplifyconfiguration*
 
 #my files 
-.env.local
+.env
