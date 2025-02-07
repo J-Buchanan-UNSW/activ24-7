@@ -23,6 +23,7 @@
   color: #ff0000;
 }
 
+/* For the images in facilties */
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -31,6 +32,17 @@
   margin-right: 50px;
 }
 
+/* Phone screen facilties page images*/
+@media (max-width: 768px) {
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    flex-grow: 5;
+    margin-right: 20px;
+  }
+}
+/* Facilities individual image */
 .image-item img {
   width: 100%;
   height: auto;
@@ -46,4 +58,6 @@
   width: 20px;
   height: 4px;
   background-color: #ff0000;
+  margin-top: 10px;
 }
+
