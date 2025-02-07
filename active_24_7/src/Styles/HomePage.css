@@ -7,7 +7,6 @@ body {
   align-items: center;  /* Vertically align the items */
   padding-left: 4%;
   width: 100vw;
-  /*flex-wrap: wrap;*/
 }
 
 .content-container p {
