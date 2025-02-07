@@ -2,7 +2,7 @@
   position: fixed;
   width: 100vw;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.9); /* Slightly transparent black background */
+  background-color: rgba(0, 0, 0, 0.9); 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   display: inline-flex; /* Make the list inline */
-  gap: 20px;  /* Adds spacing between the links */
+  gap: 20px;  
 }
 
 nav ul li {
@@ -55,7 +55,28 @@ h6 {
 
 @media (max-width: 768px) {
   .banner {
-    display: none;
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    /*padding: 20px;*/
+    object-fit: contain;
+  }
+  .banner h1,
+  .banner h2,
+  .banner p,
+  .banner li {
+    line-height: 1; 
+    font-size: 1em;
   }
 }
 
+b {
+  font-size: 1.1em;
+}
