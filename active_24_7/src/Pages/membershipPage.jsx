@@ -2,10 +2,12 @@ import React from "react";
 import "../index.css"
 import "../App.css"
 import "../Styles/HomePage.css"
+import pano from "../assets/Front.jpeg"
 
 function MembershipPage() {
   return (
     <div> 
+      {/* https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Front.jpeg*/}
       <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Front.jpeg" alt="Panorama of Gym" className="pano-image"/>
       <h1>Membership at Active 24/7</h1>
       <h2>Join for just $40 a month</h2>

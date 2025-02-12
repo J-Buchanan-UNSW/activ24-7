@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "../Styles/FacilitiesPage.css"
 import "../Styles/HomePage.css"
 
@@ -38,7 +38,6 @@ function GymEquipment() {
       "https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/punching_bag.jpeg"]
   };
 
-
   return (
     <div>
       <h2>Explore our range of exercise equipment</h2>
@@ -52,7 +51,7 @@ function GymEquipment() {
             <hr />
             <li onClick={() => setSelectedOption('weightMach')}>Weight Machines</li>
             <hr />
-            <li onClick={() => setSelectedOption('other')}>Other</li>
+            <li onClick={() => setSelectedOption('other')}>Functional Fitness</li>
             <hr />
           </ul>
         </div>

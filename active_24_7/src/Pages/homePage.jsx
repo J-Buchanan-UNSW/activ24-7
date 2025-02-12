@@ -1,5 +1,4 @@
 import React from "react";
-import bannerImage from "../assets/Mirror.jpeg"
 import { Link } from "react-router-dom";
 import "../App.css";
 import "../Styles/HomePage.css";
@@ -7,13 +6,16 @@ import "../Styles/HomePage.css";
 function HomePage() {
   return (
     <div>
-      <img src={bannerImage} alt="Panorama of Gym" className="pano-image"/>
+      <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Mirror.jpeg" alt="Panorama of Gym" className="pano-image"/>
       <div>
         <h1>Welcome to Active 24/7</h1>
         <div className="content-container">
             <p>
               We pride ourselves on providing the community with the very best gym equipment. 
               Whether you are a beginner or a seasoned gym-goer, you'll find the equipment you need to get moving!
+              <br />
+              <br/>
+              Enjoy uninterupted 24 hour access 7 days a week!
             </p>
           <div className="right-content">
             <h2>Start your fitness journey today</h2>
