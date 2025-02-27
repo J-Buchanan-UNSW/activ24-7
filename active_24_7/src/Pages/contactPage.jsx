@@ -10,7 +10,7 @@ import "../Styles/Contact.css"
 function ContactPage() {
   return (
     <div>
-      <img src={bannerImage} alt="Panorama of Gym" className="pano-image"/>
+      <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/contact_phone.jpg" alt="Panorama of Gym" className="pano-image"/>
       <h1>Contact</h1>
       <div className="contact-container">
       <div className="contact-info">

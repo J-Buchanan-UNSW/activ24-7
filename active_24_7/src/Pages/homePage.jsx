@@ -15,7 +15,7 @@ function HomePage() {
               Whether you are a beginner or a seasoned gym-goer, you'll find the equipment you need to get moving!
               <br />
               <br/>
-              Enjoy uninterupted 24 hour access 7 days a week!
+              Enjoy uninterrupted 24 hour access 7 days a week! 
             </p>
           <div className="right-content">
             <h2>Start your fitness journey today</h2>
@@ -39,6 +39,8 @@ function HomePage() {
           <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/cardio5.jpeg" alt="rowing"/>
         </div>
       </Link>
+
+      {/*<iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=Nyngan&key=AIzaSyD4-eGwrzseiZJUWx0J_R93Fqr6101ugBU"></iframe>*/}
     </div>
   );
 }
