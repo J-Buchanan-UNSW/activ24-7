@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css"
 import "../App.css"
 import "../Styles/HomePage.css"
+import "../Styles/Membership.css"
 
 function MembershipPage() {
   return (
@@ -20,10 +21,44 @@ function MembershipPage() {
       <b>Reccurring Direct Deposit</b>
       <br />
       <br />
-      <PDFDownload />
+      <div className="download-buttons">
+        <PDFDownload 
+          pdfUrl="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/MemberForm.pdf"
+          fileName="Active247_membership_form.pdf" 
+          buttonText="Download Membership Form" 
+        />
+        <PDFDownload 
+          pdfUrl="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/MemberInformation.pdf"
+          fileName="Active247_membership_information.pdf"
+          buttonText="Download Membership Information"
+        />
+      </div>
     </div>
   );
 }
+
+const PDFDownload = ({ pdfUrl, fileName, buttonText }) => {
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = fileName; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  return (
+    <button onClick={handleDownload}>
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
+        style={{ width: "20px", height: "20px", marginRight: "10px" }} 
+        alt="PDF icon"
+      />
+      {buttonText}
+    </button>
+  );
+};
 
 const DownloadLink = () => {
   fetch("MemberForm.pdf")
@@ -41,13 +76,14 @@ const DownloadLink = () => {
     });
 };
 
-const PDFDownload = () => {
+const PDFDownload2 = () => {
   return (
-    <div classname="download">
+    <div>
         <button onClick={DownloadLink}>
           <img 
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Icon_pdf_file.svg/1805px-Icon_pdf_file.svg.png" 
             style={{ width: '20px', height: '20px', marginRight: '10px'}} /*temp until css implemented*/
+            alt="PDF Icon"
           />
           Download our membership form
         </button>
