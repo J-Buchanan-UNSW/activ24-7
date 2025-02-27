@@ -10,17 +10,22 @@ import "../Styles/Contact.css"
 function ContactPage() {
   return (
     <div>
-      <img src={bannerImage} alt="Panorama of Gym" className="pano-image"/>
+      <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/contact_phone.jpg" alt="Panorama of Gym" className="pano-image"/>
       <h1>Contact</h1>
       <div className="contact-container">
       <div className="contact-info">
-          <p>Email</p>
+          <b>Email</b>
+          <br />
           <a href="mailto:admin@active247.net.au?subject=Membership Enquiry">admin@active247.net.au</a>
-          <p>Phone</p>
+          <br />
+          <b>Phone</b>
+          <br />
           <a href="tel:+61268321164">02 6832 1164</a>
           <p>
-            Active 24/7 Office
-            <br></br> 
+            <b>Active 24/7 Office</b>
+            <br />
+            9am-4pm Weekdays
+            <br />
             <a
               href="https://maps.app.goo.gl/5tqMMLMPRXxzjXog6"
               target="_blank"
@@ -30,8 +35,10 @@ function ContactPage() {
             </a>
           </p>
           <p>
-            Active 24/7 Gym
-            <br></br> 
+            <b>Active 24/7 Gym</b>
+            <br />
+            24 hour access
+            <br />
             <a
               href="https://maps.app.goo.gl/36CwSwwKPDZNHxGf8"
               target="_blank"

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "../Styles/FacilitiesPage.css"
 import "../Styles/HomePage.css"
 
@@ -51,7 +51,7 @@ function GymEquipment() {
             <hr />
             <li onClick={() => setSelectedOption('weightMach')}>Weight Machines</li>
             <hr />
-            <li onClick={() => setSelectedOption('other')}>Other</li>
+            <li onClick={() => setSelectedOption('other')}>Functional Fitness</li>
             <hr />
           </ul>
         </div>

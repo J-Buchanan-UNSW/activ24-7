@@ -1,13 +1,36 @@
+.call-to-action {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  color: #f10f0f;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.call-to-action a:hover {
+  color: #1a1a1a;
+}
+
+.call-to-action a {
+  color: #f10f0f;
+  text-decoration: none;
+}
+
+.call-to-action p {
+  margin-bottom: 2px;
+}
+
+
 .banner{
-  position: fixed;
-  width: 100vw;
+  position: relative;
+  width: 100%;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.9); 
+  background-color: rgba(255, 255, 255, 0.9); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
   padding: 20px;
   object-fit: cover;
@@ -35,7 +58,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #1a1a1a;
   transition: color 0.3s ease;
 }
 

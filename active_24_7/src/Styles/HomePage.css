@@ -6,7 +6,7 @@ body {
   justify-content: space-between;  /* Space out the content */
   align-items: center;  /* Vertically align the items */
   padding-left: 4%;
-  width: 100vw;
+  width: 100%;
 }
 
 .content-container p {

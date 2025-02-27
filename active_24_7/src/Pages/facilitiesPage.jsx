@@ -7,7 +7,7 @@ import "../Styles/HomePage.css"
 function FacilitiesPage() {
   return (
     <div>
-      <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Weights_top.jpg" alt="Panorama of Gym" className="pano-image"/>
+      <img src="https://active-24-7-photos.s3.ap-southeast-2.amazonaws.com/Weights_top_2.jpg" alt="Panorama of Gym" className="pano-image"/>
       <h1>Facilities and Amenities</h1>
       <hr />
       <GymEquipment/>

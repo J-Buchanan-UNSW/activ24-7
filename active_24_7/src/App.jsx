@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import HomePage from "./Pages/homePage";
 import MembershipPage from "./Pages/membershipPage";
@@ -14,6 +13,10 @@ function App() {
         {/*Banner with logo and navigation*/}
         <div>
           <div className="banner">
+            <div className="call-to-action">
+              <p>Join Now!</p>
+              <a href="mailto:admin@active247.net.au">admin@active247.net.au</a>
+            </div>
             <img src={Logo}/>
             <nav>
               <ul>
