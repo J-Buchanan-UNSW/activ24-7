@@ -21,6 +21,20 @@
   margin-bottom: 2px;
 }
 
+.banner-left {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  color: #f10f0f;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.banner-left p {
+  margin-bottom: 2px;
+}
+
 
 .banner{
   position: relative;
@@ -88,7 +102,6 @@ h6 {
     align-items: center;
     color: white;
     text-align: center;
-    /*padding: 20px;*/
     object-fit: contain;
   }
   .banner h1,
@@ -97,6 +110,10 @@ h6 {
   .banner li {
     line-height: 1; 
     font-size: 1em;
+  }
+
+  .call-to-action {
+    display: none;
   }
 }
 

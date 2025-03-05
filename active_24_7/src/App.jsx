@@ -13,6 +13,10 @@ function App() {
         {/*Banner with logo and navigation*/}
         <div>
           <div className="banner">
+            <div className="banner-left">
+              <p>24 hour access</p>
+              <p>7 days a week</p>
+            </div>
             <div className="call-to-action">
               <p>Join Now!</p>
               <a href="mailto:admin@active247.net.au">admin@active247.net.au</a>
